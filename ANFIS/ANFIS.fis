@@ -1,0 +1,33 @@
+[System]
+Name='ANFIS'
+Type='sugeno'
+Version=2.0
+NumInputs=1
+NumOutputs=1
+NumRules=3
+AndMethod='prod'
+OrMethod='probor'
+ImpMethod='prod'
+AggMethod='sum'
+DefuzzMethod='wtaver'
+
+[Input1]
+Name='input1'
+Range=[-0.8 0.8]
+NumMFs=3
+MF1='L':'trapmf',[-0.9955 -0.843 -0.6 -0.2]
+MF2='Z':'trimf',[-0.4 0 0.4]
+MF3='H':'trapmf',[0.2 0.6 0.815 1.18]
+
+[Output1]
+Name='output'
+Range=[-0.8141937 0.70864086]
+NumMFs=3
+MF1='Z':'constant',[-0.503560925428805]
+MF2='H':'constant',[-0.188156675369164]
+MF3='L':'constant',[0.481755179401651]
+
+[Rules]
+1, 3 (1) : 1
+2, 1 (1) : 1
+3, 2 (1) : 1
