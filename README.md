@@ -51,6 +51,7 @@ what is miising and output?
 # MicroSoft
 
 ### Virtual Round:
+
 1. Write code for creation of two threads, both the threads can share both same memory?
 2. Diff between macro and inline function?
 3. what is memory leak and write a code that creates Memory leak and prevention.
