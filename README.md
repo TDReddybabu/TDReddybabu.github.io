@@ -5,42 +5,42 @@
 ### virtual round:
 
 1. Detailed Explanation about CV.
-2.How will you change from secure to Non-secure state of exceptions?
-3.what is boot loader and explain in details about each boot loader?
-4.what is Primary BL and where it sits, can it be modified?
-5.Secure boot In details?( explain about Chain of trust / root of trust)
-6.What is Volatile, Static and explain about storage classes?
-7.Compilation process steps (.I,.s,.o,.exe/.elf)
-8.what is an interrupt, how it acts?
-9.String literals?
+2. How will you change from secure to Non-secure state of exceptions?
+3. what is boot loader and explain in details about each boot loader?
+4. what is Primary BL and where it sits, can it be modified?
+5. Secure boot In details?( explain about Chain of trust / root of trust)
+6. What is Volatile, Static and explain about storage classes?
+7. Compilation process steps (.I,.s,.o,.exe/.elf)
+8. what is an interrupt, how it acts?
+9. String literals?
 char* s = "Hello world";
 char* s[1]=y;
 printf("s\n"); what is the output?
 10. PCU Driver in details?
-11.how MMU can act if hypervisor enabled?
-12.what is CacheDump and how cache dump will read happen and what are registers used to read instructions and data explain in details?
-13.How will you deliver cachedump?
+11. how MMU can act if hypervisor enabled?
+12. what is CacheDump and how cache dump will read happen and what are registers used to read instructions and data explain in details?
+13. How will you deliver cachedump?
 
 ### F2F round:
 
-1.Exception explanation by drawing a picture?
-2.Storage Classes, CacheDump hits and miss and how to avoid cache miss?
-3.write a code to find area of square of circle in a grid? size of area of inside circle(100<r<1000).
-4.#define add(a,b) a+b+add(a,b)
+1. Exception explanation by drawing a picture?
+2. Storage Classes, CacheDump hits and miss and how to avoid cache miss?
+3. write a code to find area of square of circle in a grid? size of area of inside circle(100<r<1000).
+4. #define add(a,b) a+b+add(a,b)
 int main ()
 {
 pf("%d", add(a,b));
 return 0;
 }output?
-5.write a code to find a number of islands i.e., 1's and 2's in a grid?
-6.write a code whether the loop exist or not in a single linked list?
-7.write a logic that should follow : 1,2+1,3+2,5+3,8+5,3+8,1, end here.(not understand question properly) 
-8.asked complete flow and pros, consts in cachedump
-9.implement a heap alogirithm
-10.Write a code to extracts a bit in a 32 bit register(also set,clear and flip)?
+5. write a code to find a number of islands i.e., 1's and 2's in a grid?
+6. write a code whether the loop exist or not in a single linked list?
+7. write a logic that should follow : 1,2+1,3+2,5+3,8+5,3+8,1, end here.(not understand question properly) 
+8. asked complete flow and pros, consts in cachedump
+9. implement a heap alogirithm
+10. Write a code to extracts a bit in a 32 bit register(also set,clear and flip)?
 11. Impement a strcpy without strcpy?
-12.what is the efficient algorithm to implement cache dump in best cache approach?
-13 What is pointer and double pointer?
+12. what is the efficient algorithm to implement cache dump in best cache approach?
+13. What is pointer and double pointer?
 14. int alloc (){}
 int main () {
 int *ptr = NULL;
