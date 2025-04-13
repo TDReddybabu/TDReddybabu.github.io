@@ -4,7 +4,7 @@
 
 ### virtual round:
 
-1.Detailed Explanation about CV.
+1. Detailed Explanation about CV.
 2.How will you change from secure to Non-secure state of exceptions?
 3.what is boot loader and explain in details about each boot loader?
 4.what is Primary BL and where it sits, can it be modified?
