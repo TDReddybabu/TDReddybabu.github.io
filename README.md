@@ -102,8 +102,8 @@ output?
 * Memory alignment
 
 ### HR Round:
-explain about your family?
-what if you selected then what is approach towards work plan?
+* explain about your family?
+* what if you selected then what is approach towards work plan?
 
 # AMD
 
@@ -130,9 +130,9 @@ what if you selected then what is approach towards work plan?
 4. what is process and threads, explain difference of them by opening a browser it is storage location.
 
 ### HR round:
-Explain about your journey?
-How can you come out of critical situation?
-why should I hire you for this position?
+* Explain about your journey?
+* How can you come out of critical situation?
+* why should I hire you for this position?
 
 # NVIDIA
 
